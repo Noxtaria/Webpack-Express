@@ -1,0 +1,11 @@
+$link-color: rgb(255, 183, 0);
+
+a{
+    color: darken($link-color, 5%);
+    text-decoration: none;
+    outline: none;
+    &:hover, &:focus {
+        color: $link-color;
+        text-decoration: underline;
+    }
+}

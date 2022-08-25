@@ -1,0 +1,30 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: darkmagenta;
+    color: whitesmoke;
+}
+
+a {
+    color: rgb(255, 183, 3, 0.8);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: rgb(255, 183, 0);
+    text-decoration:underline;
+}
+
+header {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    border-top: 1px solid #fff;
+}
+
+footer > p {
+    text-align: center;
+    font-size: .9rem;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "formation-node",
+  "version": "1.0.0",
+  "description": "Formation sur Node",
+  "main": "base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server -e js,html,css",
+    "express": "nodemon express -e js, html, css"
+  },
+  "author": "BK",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "mime-types": "^2.1.35",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.4",
+    "sequelize-cli": "^6.4.1"
+  }
+}
